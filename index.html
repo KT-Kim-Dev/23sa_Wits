@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+    <title>온라인 탑승 능력치 계산기</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <span class="navtext">온라인 탑승 능력치 계산기</span>
+    </nav>
+    <br>
+    <div>
+        <div class="input-group mb-3 input-group-sm">
+            <div class="input-group-prepend">
+                <span class="input-group-text">캐릭터 공격력</span>
+            </div>
+            <input id="chatt" type="text" class="form-control" placeholder="캐릭터 공격력 입력 (스탯 포인트 X)">
+        </div>
+        <div class="input-group mb-3 input-group-sm">
+            <div class="input-group-prepend">
+                <span class="input-group-text">캐릭터 방어력</span>
+            </div>
+            <input id="chdef" type="text" class="form-control" placeholder="캐릭터 방어력 입력 (스탯 포인트 X)">
+        </div>
+        <div class="input-group mb-3 input-group-sm">
+            <div class="input-group-prepend">
+                <span class="input-group-text">캐릭터 순발력</span>
+            </div>
+            <input id="chspd" type="text" class="form-control" placeholder="캐릭터 순발력 입력 (스탯 포인트 X)">
+        </div>
+        <div class="input-group mb-3 input-group-sm">
+            <div class="input-group-prepend">
+                <span class="input-group-text">탑승펫 공격력</span>
+            </div>
+            <input id="petatt" type="text" class="form-control" placeholder="탑승펫 공격력 입력">
+        </div>
+        <div class="input-group mb-3 input-group-sm">
+            <div class="input-group-prepend">
+                <span class="input-group-text">탑승펫 방어력</span>
+            </div>
+            <input id="petdef" type="text" class="form-control" placeholder="탑승펫 방어력 입력">
+        </div>
+        <div class="input-group mb-3 input-group-sm">
+            <div class="input-group-prepend">
+                <span class="input-group-text">탑승펫 순발력</span>
+            </div>
+            <input id="petspd" type="text" class="form-control" placeholder="탑승펫 순발력 입력">
+        </div>
+    </div>
+    <button type="button" class="btn btn-outline-light btn3" onclick="ride();">능력치 계산</button><br>
+    <button type="button" class="btn btn-outline-light btn3" onclick="alert('준비중입니다');">Download</button>
+    <p></p>
+    <script type="text/javascript">
+        (function(cl, i, c, k, m, o, n) {
+            m = cl.location.protocol + c;
+            o = cl.referrer;
+            m += '&mon_rf=' + encodeURIComponent(o);
+            n = '<' + i + ' type="text/javascript" src="' + m + '"></' + i + '>';
+            cl.writeln(n);
+        })(document, 'script', '//mtab.clickmon.co.kr/pop/wp_m_icon.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1061983%7C%5E%7CAdver_M_1046207&rt_ad_id_code=RTA_106139');
+    </script>
+    <div class='rideattk'>
+    </div>
+    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+    <script type="text/javascript">
+        if (!wcs_add) var wcs_add = {};
+        wcs_add["wa"] = "c5531fd2872fe";
+        wcs_do();
+    </script>
+</body></html>

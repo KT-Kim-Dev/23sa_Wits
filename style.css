@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+
+body{
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+}
+
+.btn3{
+    background-color: black;
+    width: 346px;
+}
+
+.input-group{
+    width: 344px;
+    position: relative;
+    left: 50%;
+    margin-left: -172px;
+}
+
+.input-group-text{
+    font-weight: bolder;
+}
+
+.navtext{
+    position: relative;
+    left : 50%;
+    
+    margin-left: -103px;
+}
+
+.navtext2{
+    position: relative;
+    left: 50%;
+    margin-left: -71px;
+}
+
+.blue{
+    color : blue;
+}
+
+.red{
+    color : red;
+}
+
+.rideattk{
+    font-weight: bolder;
+}
