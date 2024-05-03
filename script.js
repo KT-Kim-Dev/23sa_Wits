@@ -24,11 +24,11 @@ function ride() {
     var petatt = Number($('#petatt').get(0).value); //탑승펫 공격력
     var petdef = Number($('#petdef').get(0).value); //탑승펫 방어력
     var petspd = Number($('#petspd').get(0).value); //탑승펫 순발력
-    resstatus[0] = Math.floor((status[0] * 80 / 100) + (petatt * 80 / 100));
+    resstatus[0] = Math.floor((status[0] * 70 / 100) + (petatt * 70 / 100));
     resstatus[1] = status[1] + petdef;
-    resstatus[2] = Math.floor((status[2] * 20 / 100) + (petspd * 80 / 100));
-    resstatus[3] = Math.floor(status[0] + (petatt * 20 / 100));
-    resstatus[4] = Math.floor((status[2] * 80 / 100) + (petspd * 20 / 100));
+    resstatus[2] = Math.floor((status[2] * 30 / 100) + (petspd * 70 / 100));
+    resstatus[3] = Math.floor(status[0] + (petatt * 30 / 100));
+    resstatus[4] = Math.floor((status[2] * 70 / 100) + (petspd * 30 / 100));
 
     for (i = 0; i <= 4; i++) {
         if (resstatus[i] == resstatus[3]) {
